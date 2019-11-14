@@ -13,6 +13,11 @@ import {RestaurantsComponent} from './container/restaurants/restaurants.componen
 import {RestaurantComponent} from './container/restaurants/restaurant/restaurant.component';
 import {FooterComponent} from './container/footer/footer.component';
 import {RestaurantsService} from './container/restaurants/restaurants.service';
+import {RestaurantDetailComponent} from './container/restaurant-detail/restaurant-detail.component';
+import {MenuComponent} from './container/restaurant-detail/menu/menu.component';
+import {MenuItemComponent} from './container/restaurant-detail/menu-item/menu-item.component';
+import {ShoppingCartComponent} from './container/restaurant-detail/shopping-cart/shopping-cart.component';
+import {ReviewsComponent} from './container/restaurant-detail/reviews/reviews.component';
 
 
 @NgModule({
@@ -23,7 +28,12 @@ import {RestaurantsService} from './container/restaurants/restaurants.service';
     AboutComponent,
     RestaurantsComponent,
     RestaurantComponent,
-    FooterComponent
+    FooterComponent,
+    RestaurantDetailComponent,
+    MenuComponent,
+    ShoppingCartComponent,
+    MenuItemComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
